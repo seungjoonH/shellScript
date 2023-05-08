@@ -24,7 +24,7 @@
 
 * case1: `n = 3`
   ```
-  ./script1.sh
+  $ ./script1.sh
   *****
    ***
     *
@@ -32,7 +32,7 @@
 
 * case2: `n = 5`
   ```
-  ./script1.sh
+  $ ./script1.sh
   *********
    *******
     *****
@@ -55,7 +55,7 @@
 ### Hint
 
 * `$RANDOM` generates a random number
-* `num=$((RANDOM%200+100))` sets variable `num` to a random number between `100` and `200`
+* `num=$((RANDOM%200+100))` sets variable `num` to a random number between `100` and `300`
 
 ### Sample output
 
